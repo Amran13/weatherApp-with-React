@@ -1,0 +1,19 @@
+.App {
+  background-image: url('tom-barrett-hgGplX3PFBg-unsplash.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.input {
+  width: 80%;
+  margin: auto;
+  padding: 5px 15px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.input:focus {
+  outline: none;
+}
